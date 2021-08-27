@@ -1,0 +1,14 @@
+{
+    "credentials": {
+        "app_name": "YourAppNameInNewYorkTimesAPI",
+        "app_id": "your-app-id-newyork-times",
+        "api_key": "YourAppNameInNewYorkTimesAPIKey",
+        "secret_key": "yoursecretkey",
+        "created": "2019-12-26",
+        "expire": null
+    },
+    "api_endpoints":{
+        "archive": "https://api.nytimes.com/svc/archive/v1/{year}/{month}.json?api-key={yourkey}",
+        "article": "https://api.nytimes.com/svc/search/v2/articlesearch.json?q={election}&api-key={yourkey}"
+    }
+}
